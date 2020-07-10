@@ -1,0 +1,81 @@
+// Styling for the masthead
+header.masthead {
+  text-align: center;
+  color: white;
+  //background-image: url("#{$header-image}");
+  background-color: #1d3876 !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    // to handle columns
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+      //margin-bottom: 25px;
+      @include script-font;
+    }
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      @include script-font;
+    }
+    .intro-body {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 40px;
+      //margin-bottom: 25px;
+      @include script-font;
+      color: #f27a08;
+    }
+  }
+  .intro-text-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+        //margin-bottom: 25px;
+        @include script-font;
+      }
+      .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include script-font;
+      }
+      .intro-body {
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 40px;
+        //margin-bottom: 50px;
+        @include script-font;
+      }
+    }
+  }
+}

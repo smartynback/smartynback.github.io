@@ -1,18 +1,9 @@
-nav:
-  - title: "Services"
-    section: services
+nav: 
+  - title: "Download"
+    section: download
 
-  - title: "Portfolio"
-    section: portfolio
-    
-  - title: "About"
-    section: timeline
-
-  - title: "Team"
-    section: team
+  - title: "Donate"
+    section: donate
 
   - title: "Contact"
     section: contact
-
-  - title: "Theme Source"
-    url: https://github.com/raviriley/agency-jekyll-theme/

@@ -1,0 +1,41 @@
+<!-- Donate -->
+<section class="bg-light page-section" id="{{ site.data.sitetext.donate.section | default: "donate" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext.donate.title | default: "Donate" }}</h2>
+          {% if site.data.sitetext.donate.text %}
+              <h3 class="section-subheading text-muted">{{ site.data.sitetext.donate.text }}</h3>
+              {% endif %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_donations" />
+                <input type="hidden" name="business" value="smartynback@gmail.com" />
+                <input type="hidden" name="currency_code" value="USD" />
+
+                <!-- EN -->
+                {% if site.data.sitetext.donate.lang == "en" %}
+                <input type="hidden" name="item_name" value="Help support the development of Smarty N-Back" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                {% endif %}
+                <!-- ES -->
+                {% if site.data.sitetext.donate.lang == "es" %}
+                <input type="hidden" name="item_name" value="Contribuye con el equipo de Smarty N-Back" />
+                <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donar con el botón PayPal" />
+                <img alt="" border="0" src="https://www.paypal.com/es_US/i/scr/pixel.gif" width="1" height="1" />
+                {% endif %}
+                <!-- CN -->
+                {% if site.data.sitetext.donate.lang == "cn" %}
+                <input type="hidden" name="item_name" value="請幫助支持Smarty N-Back的開發。" />
+                <input type="image" src="https://www.paypalobjects.com/zh_XC/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="使用PayPal按钮进行捐赠" />
+                <img alt="" border="0" src="https://www.paypal.com/zh_US/i/scr/pixel.gif" width="1" height="1" />
+                {% endif %}
+            </form>
+        </div>
+      </div>
+</section>
+<!-- End Donate -->
