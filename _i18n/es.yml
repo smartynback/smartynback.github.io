@@ -23,15 +23,15 @@ download:
 
 donate:
   title: Contribuye con el mantenimiento
-  text: Por favor, contribuye con el manteminemiento de Smarty N-Back donando hoy.
+  text: Por favor, contribuye con el mantenimiento de Smarty N-Back donando hoy.
 
 contact:
   title: Contáctanos
-  name_text: Nombre
+  name_text: Nombre*
   name_required: Ingresa tu nombre
-  email_text: E-mail
+  email_text: E-mail*
   email_required: Ingresa tu e-mail
-  message_text: Mensaje
+  message_text: Mensaje*
   message_required: Ingresa tu mensaje
   send_text: Envía tu mensaje
 
