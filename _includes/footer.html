@@ -3,9 +3,10 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-12">
-            <span class="copyright">Copyright © Dec 2014 by the National Copyright Directorate, file #5207209. All rights reserved.
-            <p>No part of the materials including graphics or logos, available in this Web site may be copied, photocopied, reproduced, translated or reduced to any electronic medium or machine-readable form, in whole or in part, without specific permission (to request permission to use materials, please contact us).</p>
-            <p>Distribution for commercial purposes is prohibited.</p>
+            <span class="copyright">
+              <p>{% t footer.text1 %}</p>
+              <p>{% t footer.text2 %}</p>
+              <p>{% t footer.text3 %}</p>
             </span>
         </div>
       </div>
@@ -14,7 +15,7 @@
         <div class="col-md-12">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
-              <a href="legal">{{ site.data.sitetext.footer.legal | default: "Privacy Policy" }}</a>
+              <a href="legal">{% t footer.legal %}</a>
             </li>
           </ul>
         </div>

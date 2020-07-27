@@ -18,8 +18,9 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Smarty N-Back
+logo       : /assets/img/app_logo.png
 email      : smartynback@gmail.com #this is also the email contact forms will go to
-description: "Smart N-Back | Brain Training for Everyone"
+# description: "Smart N-Back | Brain Training for Everyone"
 author     : Smarty N-Back
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
@@ -35,3 +36,11 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+  - jekyll-multiple-languages-plugin
+
+languages: ['en', 'es']
+exclude_from_localizations: ["assets", "css", "img", "js"]
+defaultLang: 'en'
+languageNames:
+  en: English
+  es: Español

@@ -123,6 +123,8 @@ GEM
     jekyll-mentions (1.5.1)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
+    jekyll-multiple-languages-plugin (1.7.0)
+      jekyll (>= 2.0, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
@@ -245,6 +247,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 206)
   jekyll-feed (~> 0.6)
+  jekyll-multiple-languages-plugin
   jekyll-remote-theme
   wdm (>= 0.1.0)
 

@@ -7,6 +7,7 @@ gem "github-pages", "~> 206", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem 'jekyll-multiple-languages-plugin'
 end
 
 # Delete the following lines if not on Windows: 

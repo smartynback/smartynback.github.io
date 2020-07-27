@@ -1,54 +1,12 @@
-header:
-    title: Smarty N-Back
-    text1: Challenge yourself & improve
-    text2: Boost your memory
-    logo: assets/img/app_logo.png
-
-services:
-    title: "Brain Training for Everyone"
-    text: "Smarty N-back is a brain training game for everyone. You’ll have to memorize figures, colors, sounds, positions or all of them together. By playing daily you’ll improve your short-term memory, acquire the ability to solve new problems and think logically in new situations."
-    button: "Watch video tutorial"
-    image: assets/img/board.png
-    buttonlink: "https://www.youtube.com/" # TODO
-    section: services
-
 portfolio:
-    title: "Intuitive Game Play"
-    text: "Easy to learn, simple to play."
     list:
-      - image: assets/img/screenshot-1.png # TODO
-      - image: assets/img/screenshot-2.png
-      - image: assets/img/screenshot-3.png
+      - image: /assets/img/screenshot-1.png # TODO
+      - image: /assets/img/screenshot-2.png
+      - image: /assets/img/screenshot-3.png
 
 download:
-    title: "Download Now"
-    text: "Available on the Google Play store."
-    image: assets/img/download-android.png
+    image: /assets/img/download-android.png
     link: https://www.google.com # TODO
-
-donate:
-    title: "Support Us"
-    text: "Please help support the develpment of Smart N-Back by donating today."
-    lang: en
-
-contact:
-    title: "Contact Us"
-    # text: "Lorem ipsum or call 123456789"
-    section: contact
     
 footer:
     legal: "Privacy Policy"
-    #social:
-    #  - url: https://twitter.com
-    #    icon: "fab fa-twitter"  
-    #  - url: https://facebook.com
-    #    icon: "fab fa-facebook-f"
-    #  - url: https://linkedin.com
-    #    icon: "fab fa-linkedin-in"
-    #  - url: https://github.com/raviriley/agency-jekyll-theme
-    #    icon: "fab fa-github"
-    #  - url: https://instagram.com
-    #    icon: "fab fa-instagram"
-
-
-# {{ site.data.sitetext.ex.ex | markdownify | default: example }}

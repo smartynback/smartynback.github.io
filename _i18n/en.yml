@@ -1,0 +1,57 @@
+#_i18n/en.yml - english
+global:
+  description: Smart N-Back | Brain Training for Everyone
+
+header:
+  text1: Challenge yourself & improve
+  text2: Boost your memory
+
+services:
+  title: Brain Training for Everyone
+  text: Smarty N-back is a brain training game for everyone. You’ll have to memorize figures, colors, sounds, positions or all of them together. By playing daily you’ll improve your short-term memory, acquire the ability to solve new problems and think logically in new situations.
+  button: Watch video tutorial
+  image: /assets/img/board.png
+  buttonlink: https://youtu.be/aDBim0GwJCY
+
+portfolio:
+  title: Intuitive Game Play
+  text: Easy to learn, simple to play.
+
+download:
+  title: Download Now
+  text: Available on the Google Play store.
+
+donate:
+  title: Support Us
+  text: Please help support the develpment of Smart N-Back by donating today.
+
+contact:
+  title: Contact Us
+  name_text: Name*
+  name_required: Please enter your name.
+  email_text: Email*
+  email_required: Please enter your email address.
+  message_text: Message*
+  message_required: Please enter a message.
+  send_text: Send Message
+
+footer:
+  text1: "Copyright © Dec 2014 by the National Copyright Directorate, file #5207209. All rights reserved."
+  text2: "No part of the materials including graphics or logos, available in this Web site may be copied, photocopied, reproduced, translated or reduced to any electronic medium or machine-readable form, in whole or in part, without specific permission (to request permission to use materials, please contact us)."
+  text3: "Distribution for commercial purposes is prohibited."
+  legal: "Privacy Policy"
+
+privacy:
+  title: "Privacy Policy"
+  sub_title: This Privacy Policy describes how your personal information is collected, used, and shared when you visit Smarty N-Back (the "Site").
+  personal_information_title: "**PERSONAL INFORMATION WE COLLECT**"
+  personal_information_ga_text1: "Automatically Collected (Google Analytics):"
+  personal_information_ga_text2: "When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”."
+  personal_information_ga_text3: "We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org."
+  personal_information_ga_text4: "We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>."
+  personal_information_ga_text5: "You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>."
+  personal_information_no_ga_text1: "We do not collect any data about you or use any cookies."
+  changes_title: "**CHANGES**"
+  changes_text: "We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons."
+  contact_us_title: "**CONTACT US**"
+  contact_us_text: For more information about our privacy practices or if you have questions, please contact us by submitting the form <a href="/#contact">here</a>.
