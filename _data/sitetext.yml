@@ -1,12 +1,12 @@
 portfolio:
     list:
-      - image: /assets/img/screenshot-1.png # TODO
+      - image: /assets/img/screenshot-1.png
       - image: /assets/img/screenshot-2.png
       - image: /assets/img/screenshot-3.png
 
 download:
     image: /assets/img/download-android.png
-    link: https://www.google.com # TODO
+    link: https://play.google.com/store/apps/details?id=com.smartynback
     
 footer:
     legal: "Privacy Policy"
